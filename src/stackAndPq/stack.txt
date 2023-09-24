@@ -1,0 +1,8 @@
+NGR | Nearest Greater to right | Next Largest Element
+NGL | Nearest Greater to left
+NSL | NEAREST SMALLER TO LEFT
+NSR | Nearest Smaller to Right
+Stock Span Problem
+Maximum Area Histogram | MAH
+Max Area Rectangle in binary matrix
+Rain Water Trapping

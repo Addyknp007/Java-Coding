@@ -1,0 +1,226 @@
+%-------------------------
+% Resume in Latex
+% Author : Matty
+% Based on: https://github.com/jakegut/resume (which was based on https://github.com/sb2nov/resume)
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+
+\input{glyphtounicode}
+
+% -------------------- FONT --------------------
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-1in} % Default was -.5in
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-9pt}]
+
+% Subsection formatting
+\titleformat{\subsection}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{\hspace{-.15in}}{0em}{}[\color{black}\vspace{-8pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+% -------------------- CUSTOM COMMANDS --------------------
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    {#1} \hfill {#2} \vspace{-4pt}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      {\small#3} & {\small #4} \\
+    \end{tabular*}\vspace{-10pt}
+}
+
+\newcommand{\resumeSubheadingNoGap}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+
+    \end{tabular*}\vspace{-10pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-10pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-10pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\setlength{\footskip}{4.08003pt}
+
+% -------------------- START OF DOCUMENT --------------------
+\begin{document}
+
+% -------------------- HEADING--------------------
+\begin{flushright}
+  \vspace{-6pt}
+  \color{gray}
+  \item
+\end{flushright}
+
+
+
+\begin{center}
+    \textbf{\Huge \scshape Monu Singh Yadav} \\ \vspace{8pt}
+    \small
+    \faIcon{mobile}
+    {\underline{8299828361}}
+    \faIcon{envelope}
+    \href{mailto:monukan1999@gmail.com}{\underline{monukan1999@gmail.com}}}
+    \faIcon{linkedin}
+    \href{https://www.linkedin.com/in/monu-singh-yadav-bb8ab9140/}{\underline{https://www.linkedin.com/in/monu-singh-yadav-bb8ab9140/}} $  $
+
+\end{center}
+
+% -------------------- EDUCATION --------------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {National institue of Technology, Raipur}{2016-20}
+      {Information Technology}{Current GPA: 8.27}
+
+    \resumeSubheading
+      {B.N.S.D.Shiksha Niketan Inter College, Kanpur \footnotesize{}}{ 2015 }
+      {Intermediate}{92.2\%}
+      \resumeSubheading
+      {B.N.S.D.Shiksha Niketan Inter College, Kanpur \footnotesize{}}{ 2013 }
+      {High School}{89\% }
+  \resumeSubHeadingListEnd
+
+% -------------------- SKILLS --------------------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+
+     \textbf{Spring Boot, Spring, RestApi, Unit Testing, Microservices, AWS(SQS), JAVA, Java-Core, Prometheus, Groovy }\\
+      \textbf{DataBase}{: SQL, Elastic Search, Redis, MongoDb}
+
+     \textbf{Tools}{: Git/GitHub, IntelliJ IDEA, Jira, Kibana, Jenkins}
+
+     % \textbf{Frameworks}{: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI} \\
+
+     % \textbf{Libraries}{: pandas, NumPy, Matplotlib}
+
+    }}
+ \end{itemize}
+
+% -------------------- PROJECTS --------------------
+\section{Experience And Projects}
+\resumeSubHeadingListStart
+
+    \resumeProjectHeading
+      {\textbf{Paytm Money - Bonds} $|$ \footnotesize{Software Engineer}\vspace{8pt}}{Mar 2022 -- Present}
+    \resumeItemListStart
+        \resumeItem{Contributed to the Tick Listener service, actively ingesting real-time market packets and performing deserialization for yield calculations.}
+
+        \resumeItem{Developed a Selenium-based cron job to extract rating data from five distinct websites and fetch record date information from BSE to keep our data up-to-date. The cron job was deployed on an EC2 instance, ensuring uninterrupted execution by addressing memory and disk space concerns, all while providing real-time failure notifications.}
+
+        \resumeItem{Designed and implemented a cron job for retrieving real-time gold prices from the IBJA API, enabling seamless data integration into our database.}
+
+        \resumeItem{Created and engineered APIs for "Top 10 Traded" and "Total Bonds Sold" functionalities, optimizing performance through caching for our homepage.}
+
+        \resumeItem{Designed and developed APIs for "Same Company Bonds" and "Similar Bonds" to improve data accessibility, leveraging Elasticsearch for faster search results with reduced latency.}
+
+        \resumeItem{Developed a Periscope API to facilitate bulk data uploads into MySQL and maintain real-time user data updates using AWS SQS for our user-holdings.}
+
+        \resumeItem{Crafted an API for retrieving historical user orders from Elasticsearch, allowing filtering by user ID and a specified time frame with lesser response time }
+
+         \resumeItem{Led the redesign and optimization efforts of the yield calculator service, including the implementation of comprehensive unit test cases.}
+
+        \resumeItem{Enhanced system reliability by introducing real-time notifications for latency and failure alerts across our services and cron jobs using prometheus and Grafana dashboard}
+
+        \resumeItem{Implemented email notifications to provide updates upon the successful execution of cron jobs and data transfers.}
+
+
+
+        \resumeItem{Added mail notifications after the successful execution of our cron jobs and data transfer}
+
+    \resumeItemListEnd
+
+    \resumeProjectHeading {\textbf{Datametica Solution Private Limited - Raven}\vspace{8pt} $|$ \footnotesize{Member Of Technical Staff}}{Aug 2020 -- Feb 2022}
+
+    \resumeItemListStart
+        \resumeItem{Created a Regression Testing framework capable of fetching data from Google Bucket, conducting regression analysis, and delivering email reports to designated recipients.}
+
+        \resumeItem{Designed a utility to extract SQL code from shell scripts and convert it into queries compatible with various databases and collaborated on a project to incorporate Teradata support into Snowflake Translation.}
+
+        \resumeItem{Helped clients to migrate from legacy Dataware house to cloud by automatically translating their complex queries}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+% Achievements
+\section{Achievements}
+\begin{itemize}
+  \resumeItem{Rising Star Award at Datametica Solution Private Limited}{Aug 2021}
+  \resumeItem{Gail Scholarship for JEE selection}{}
+  \resumeItem{5 Star Gold Badge in Problem Solving on HackerRank}{}
+\end{itemize}
+
+
+
+
+\section{Interests}
+\begin{itemize}
+  \resumeItem{Video Games, Technology, Problem Solving}
+\end{}
+
+\end{document}
+
+
+

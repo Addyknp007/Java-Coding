@@ -1,0 +1,19 @@
+Binary Search on Reverse Sorted Array all approaches in java
+Order Not Known Search all approaches in java
+First and Last occurrence of an Element all approaches in java
+Count of an Element in a Sorted Array all approaches in java
+Number of Times a Sorted array is Rotated all approaches in java
+Find an Element in a Rotated Sorted Array all approaches in java
+Searching in a Nearly Sorted Array all approaches in java
+Find Floor of an element in a Sorted Array all approaches in java
+Ceil of an element in a Sorted Array all approaches in java
+Next Alphabetical Element all approaches in java
+Find position of an element in an Infinite Sorted Array all approaches in java
+Index of First 1 in a Binary Sorted Infinite Array all approaches in java
+Minimum Difference Element in a Sorted Array all approaches in java
+
+Peak Element all approaches in java
+Find maximum element in Bitonic Array all approaches in java
+Search An Element in Bitonic Array all approaches in java
+Search in Row wise And Column wise Sorted Array all approaches in java
+Allocate Minimum Number Of Pages all approaches in java
